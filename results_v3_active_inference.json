@@ -1,0 +1,11 @@
+{
+  "generation": 3,
+  "name": "HAI_ActiveInference_EFE",
+  "dimension": 10000,
+  "mean_steps_to_goal": 20.0,
+  "random_baseline_steps": 27.4,
+  "efficiency_gain_pct": 27.007299270072988,
+  "mean_epistemic_curiosity": 0.8906977040425229,
+  "mean_pragmatic_alignment": 0.01726501946427211,
+  "throughput_cycles_sec": 197.28255220153534
+}

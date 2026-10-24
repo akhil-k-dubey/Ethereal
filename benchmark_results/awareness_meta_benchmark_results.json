@@ -1,0 +1,167 @@
+[
+  {
+    "model_name": "00_Unaware_Baseline_MLP",
+    "C1_Self_Other": 0.44,
+    "C2_Self_Prediction": 0.0,
+    "C3_Self_Modification": 0.0,
+    "C4_Counterfactual_Reasoning": 0.0,
+    "C5_Metacognitive_Calibration": 1.0,
+    "C6_Anomaly_Detection": 0.0,
+    "Arithmetic_Mean": 0.24,
+    "Awareness_Index_AI6": 0.0001
+  },
+  {
+    "model_name": "Thesis_11_CSI",
+    "C1_Self_Other": 0.9,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 0.8986,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7523,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9252,
+    "Awareness_Index_AI6": 0.9157
+  },
+  {
+    "model_name": "Thesis_12_DPE_WM",
+    "C1_Self_Other": 1.0,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 0.9839,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7508,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9558,
+    "Awareness_Index_AI6": 0.9453
+  },
+  {
+    "model_name": "Thesis_13_GSS",
+    "C1_Self_Other": 0.92,
+    "C2_Self_Prediction": 0.1893,
+    "C3_Self_Modification": 1.0,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7598,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.8115,
+    "Awareness_Index_AI6": 0.5617
+  },
+  {
+    "model_name": "Thesis_14_SDR",
+    "C1_Self_Other": 1.0,
+    "C2_Self_Prediction": 0.4374,
+    "C3_Self_Modification": 0.7287,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.54,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.7843,
+    "Awareness_Index_AI6": 0.7051
+  },
+  {
+    "model_name": "Thesis_15_ELSB",
+    "C1_Self_Other": 0.94,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 1.0,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.6916,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9386,
+    "Awareness_Index_AI6": 0.9218
+  },
+  {
+    "model_name": "Thesis_16_FESM",
+    "C1_Self_Other": 0.94,
+    "C2_Self_Prediction": 0.5445,
+    "C3_Self_Modification": 0.9999,
+    "C4_Counterfactual_Reasoning": 0.9,
+    "C5_Metacognitive_Calibration": 0.7751,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.8599,
+    "Awareness_Index_AI6": 0.8218
+  },
+  {
+    "model_name": "Thesis_17_MACS",
+    "C1_Self_Other": 0.96,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 1.0,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7267,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9478,
+    "Awareness_Index_AI6": 0.935
+  },
+  {
+    "model_name": "Thesis_18_TSR",
+    "C1_Self_Other": 0.96,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 1.0,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7259,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9477,
+    "Awareness_Index_AI6": 0.9348
+  },
+  {
+    "model_name": "Thesis_19_CSC",
+    "C1_Self_Other": 0.94,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 1.0,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7313,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9452,
+    "Awareness_Index_AI6": 0.933
+  },
+  {
+    "model_name": "Thesis_20_PLSD",
+    "C1_Self_Other": 1.0,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 0.86,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.727,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9312,
+    "Awareness_Index_AI6": 0.9178
+  },
+  {
+    "model_name": "Combo_11_CSI_GSS",
+    "C1_Self_Other": 0.94,
+    "C2_Self_Prediction": 0.1351,
+    "C3_Self_Modification": 0.9606,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.768,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.8006,
+    "Awareness_Index_AI6": 0.4686
+  },
+  {
+    "model_name": "Combo_12_FESM_CSI",
+    "C1_Self_Other": 0.96,
+    "C2_Self_Prediction": 0.5184,
+    "C3_Self_Modification": 0.9992,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7847,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.877,
+    "Awareness_Index_AI6": 0.8282
+  },
+  {
+    "model_name": "Combo_16_PLSD_CSI",
+    "C1_Self_Other": 0.94,
+    "C2_Self_Prediction": 1.0,
+    "C3_Self_Modification": 0.8835,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7465,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.9283,
+    "Awareness_Index_AI6": 0.9182
+  },
+  {
+    "model_name": "Combo_17_Awareness_Nexus",
+    "C1_Self_Other": 0.96,
+    "C2_Self_Prediction": 0.1776,
+    "C3_Self_Modification": 0.9995,
+    "C4_Counterfactual_Reasoning": 1.0,
+    "C5_Metacognitive_Calibration": 0.7457,
+    "C6_Anomaly_Detection": 1.0,
+    "Arithmetic_Mean": 0.8138,
+    "Awareness_Index_AI6": 0.545
+  }
+]

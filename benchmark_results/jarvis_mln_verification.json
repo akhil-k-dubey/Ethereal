@@ -1,0 +1,9 @@
+{
+  "architecture": "JARVIS-MLN (Metacognitive Liquid Network)",
+  "continuous_dynamics": "LTC Neural ODE (RK4 integration)",
+  "mean_quiet_tau": 0.5677876432499417,
+  "mean_shock_tau": 0.12282405249455967,
+  "self_healing_verified": true,
+  "causal_intervention_verified": true,
+  "long_horizon_stable": true
+}

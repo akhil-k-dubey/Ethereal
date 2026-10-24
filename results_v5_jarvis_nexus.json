@@ -1,0 +1,12 @@
+{
+  "generation": 5,
+  "name": "HAI_Jarvis_Nexus",
+  "dimension": 10000,
+  "crisis_resolution_success_rate": 100.0,
+  "mean_steps_to_resolution": 2.6666666666666665,
+  "multi_hop_deduction_accuracy": 1.0,
+  "self_healing_success": true,
+  "pre_repair_coherence": -0.004089722244401915,
+  "post_repair_coherence": 0.5754556203670078,
+  "decision_cycles_per_second": 225.63498950179383
+}

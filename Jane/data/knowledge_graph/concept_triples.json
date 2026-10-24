@@ -1,0 +1,2552 @@
+[
+  {
+    "head": "force",
+    "relation": "relates_to",
+    "tail": "acceleration"
+  },
+  {
+    "head": "force",
+    "relation": "equals_product_of",
+    "tail": "mass"
+  },
+  {
+    "head": "force",
+    "relation": "causes",
+    "tail": "acceleration"
+  },
+  {
+    "head": "mass",
+    "relation": "resists",
+    "tail": "acceleration"
+  },
+  {
+    "head": "mass",
+    "relation": "has_property",
+    "tail": "inertia"
+  },
+  {
+    "head": "acceleration",
+    "relation": "is_rate_of_change_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "velocity",
+    "relation": "is_rate_of_change_of",
+    "tail": "position"
+  },
+  {
+    "head": "velocity",
+    "relation": "relates_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum",
+    "relation": "equals_product_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "momentum",
+    "relation": "conserved_in",
+    "tail": "isolated_system"
+  },
+  {
+    "head": "energy",
+    "relation": "conserved_in",
+    "tail": "closed_system"
+  },
+  {
+    "head": "kinetic_energy",
+    "relation": "depends_on",
+    "tail": "velocity"
+  },
+  {
+    "head": "potential_energy",
+    "relation": "depends_on",
+    "tail": "position"
+  },
+  {
+    "head": "work",
+    "relation": "transforms",
+    "tail": "energy"
+  },
+  {
+    "head": "work",
+    "relation": "equals_product_of",
+    "tail": "force"
+  },
+  {
+    "head": "power",
+    "relation": "is_rate_of",
+    "tail": "energy"
+  },
+  {
+    "head": "power",
+    "relation": "equals_product_of",
+    "tail": "work"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "couples",
+    "tail": "energy"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "couples",
+    "tail": "force"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "couples",
+    "tail": "velocity"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "couples",
+    "tail": "power"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "couples",
+    "tail": "work"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "couples",
+    "tail": "pressure"
+  },
+  {
+    "head": "temperature",
+    "relation": "measures",
+    "tail": "thermal_energy"
+  },
+  {
+    "head": "heat",
+    "relation": "flows_down",
+    "tail": "temperature_gradient"
+  },
+  {
+    "head": "pressure",
+    "relation": "is_force_per_unit",
+    "tail": "area"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "pressure"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "temperature"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "volume"
+  },
+  {
+    "head": "entropy",
+    "relation": "increases_in",
+    "tail": "spontaneous_process"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "couples",
+    "tail": "temperature"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "governs",
+    "tail": "blackbody_radiation"
+  },
+  {
+    "head": "electrical_power",
+    "relation": "equals_product_of",
+    "tail": "voltage"
+  },
+  {
+    "head": "voltage",
+    "relation": "equals_product_of",
+    "tail": "current"
+  },
+  {
+    "head": "current",
+    "relation": "is_flow_of",
+    "tail": "charge"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "violates",
+    "tail": "bell_theorem"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "preserves",
+    "tail": "conservation_laws"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "exhibits",
+    "tail": "meissner_effect"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "characterized_by",
+    "tail": "london_penetration_depth"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "expels",
+    "tail": "magnetic_field"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "inversely_proportional_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "bounds",
+    "tail": "conjugate_variables"
+  },
+  {
+    "head": "laser",
+    "relation": "emits",
+    "tail": "coherent_light"
+  },
+  {
+    "head": "plasma",
+    "relation": "contains",
+    "tail": "charged_particles"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "generates",
+    "tail": "transverse_voltage"
+  },
+  {
+    "head": "dark_matter",
+    "relation": "interacts_via",
+    "tail": "gravitational_potential"
+  },
+  {
+    "head": "gravitational_potential",
+    "relation": "determines",
+    "tail": "escape_velocity"
+  },
+  {
+    "head": "speed_of_light",
+    "relation": "is_upper_bound_for",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "shortens",
+    "tail": "length"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "unifies",
+    "tail": "mass"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "scales_with",
+    "tail": "lorentz_factor"
+  },
+  {
+    "head": "python",
+    "relation": "is_a",
+    "tail": "programming_language"
+  },
+  {
+    "head": "python",
+    "relation": "used_in",
+    "tail": "scientific_computing"
+  },
+  {
+    "head": "python",
+    "relation": "supports",
+    "tail": "symbolic_reasoning"
+  },
+  {
+    "head": "python",
+    "relation": "executes",
+    "tail": "neural_networks"
+  },
+  {
+    "head": "python",
+    "relation": "interfaces_with",
+    "tail": "z3_solver"
+  },
+  {
+    "head": "python",
+    "relation": "implements",
+    "tail": "relational_manifold"
+  },
+  {
+    "head": "coding",
+    "relation": "synthesizes",
+    "tail": "software"
+  },
+  {
+    "head": "coding",
+    "relation": "formalizes",
+    "tail": "algorithmic_logic"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "defines",
+    "tail": "effective_computability"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "models",
+    "tail": "universal_turing_machine"
+  },
+  {
+    "head": "algorithm",
+    "relation": "computes",
+    "tail": "mathematical_function"
+  },
+  {
+    "head": "symbolic_reasoning",
+    "relation": "verified_by",
+    "tail": "smt_prover"
+  },
+  {
+    "head": "neural_networks",
+    "relation": "navigates",
+    "tail": "geometric_manifold"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "quantifies",
+    "tail": "information_uncertainty"
+  },
+  {
+    "head": "hyperbolic",
+    "relation": "has_negative",
+    "tail": "gaussian_curvature"
+  },
+  {
+    "head": "hyperbolic",
+    "relation": "embeds_hierarchies_in",
+    "tail": "poincare_disk"
+  },
+  {
+    "head": "calculus_derivative",
+    "relation": "measures_rate_of",
+    "tail": "change"
+  },
+  {
+    "head": "non_euclidean_geometry",
+    "relation": "generalizes",
+    "tail": "euclidean_space"
+  },
+  {
+    "head": "modus_ponens",
+    "relation": "infers_truth_in",
+    "tail": "formal_logic"
+  },
+  {
+    "head": "pythagorean_theorem",
+    "relation": "relates_sides_of",
+    "tail": "right_triangle"
+  },
+  {
+    "head": "theory_of_mind",
+    "relation": "tracks",
+    "tail": "ego_alter_perspective"
+  },
+  {
+    "head": "cognitive_dissonance",
+    "relation": "monitors",
+    "tail": "belief_contradiction"
+  },
+  {
+    "head": "popperian_falsification",
+    "relation": "tests",
+    "tail": "scientific_hypotheses"
+  },
+  {
+    "head": "epistemic_humility",
+    "relation": "acknowledges",
+    "tail": "knowledge_boundaries"
+  },
+  {
+    "head": "acoustic_manifold",
+    "relation": "maps",
+    "tail": "continuous_spectrograms"
+  },
+  {
+    "head": "vad_silence_gating",
+    "relation": "filters",
+    "tail": "background_noise"
+  },
+  {
+    "head": "vision_transformer",
+    "relation": "processes",
+    "tail": "patch_embeddings"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "related_to",
+    "tail": "dimension"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "related_to",
+    "tail": "mass"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "related_to",
+    "tail": "wavelength"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "related_to",
+    "tail": "position"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "related_to",
+    "tail": "computation"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "related_to",
+    "tail": "axiom"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "related_to",
+    "tail": "wave_function"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "hall_effect_stefan_boltzmann_constant_xy",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "hall_effect_stefan_boltzmann_constant_xy",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "london_penetration_depth",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "london_penetration_depth",
+    "relation": "related_to",
+    "tail": "permeability"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "kilogram",
+    "relation": "is_unit_of",
+    "tail": "mass"
+  },
+  {
+    "head": "meter",
+    "relation": "is_unit_of",
+    "tail": "length"
+  },
+  {
+    "head": "second",
+    "relation": "is_unit_of",
+    "tail": "time"
+  },
+  {
+    "head": "newton",
+    "relation": "is_unit_of",
+    "tail": "force"
+  },
+  {
+    "head": "joule",
+    "relation": "is_unit_of",
+    "tail": "energy"
+  },
+  {
+    "head": "watt",
+    "relation": "is_unit_of",
+    "tail": "power"
+  },
+  {
+    "head": "pascal",
+    "relation": "is_unit_of",
+    "tail": "pressure"
+  },
+  {
+    "head": "kelvin",
+    "relation": "is_unit_of",
+    "tail": "temperature"
+  },
+  {
+    "head": "ampere",
+    "relation": "is_unit_of",
+    "tail": "electric_current"
+  },
+  {
+    "head": "volt",
+    "relation": "is_unit_of",
+    "tail": "voltage"
+  },
+  {
+    "head": "ohm",
+    "relation": "is_unit_of",
+    "tail": "resistance"
+  },
+  {
+    "head": "carnot_limit",
+    "relation": "bounds",
+    "tail": "thermal_efficiency"
+  },
+  {
+    "head": "thruster_thrust",
+    "relation": "generates",
+    "tail": "reaction_force"
+  },
+  {
+    "head": "mass_flow",
+    "relation": "multiplies",
+    "tail": "exhaust_velocity"
+  },
+  {
+    "head": "joule_heating",
+    "relation": "dissipates",
+    "tail": "electrical_energy"
+  },
+  {
+    "head": "gravitational_field",
+    "relation": "exerts_force_on",
+    "tail": "mass"
+  },
+  {
+    "head": "kinetic_energy",
+    "relation": "scales_with_square_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "rest_energy",
+    "relation": "scales_with_square_of",
+    "tail": "speed_of_light"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "rules_out",
+    "tail": "local_hidden_variables"
+  },
+  {
+    "head": "wavefunction",
+    "relation": "collapses_under",
+    "tail": "measurement"
+  },
+  {
+    "head": "superposition",
+    "relation": "permits",
+    "tail": "linear_combination_of_states"
+  },
+  {
+    "head": "bekenstein_hawking_entropy",
+    "relation": "proportional_to",
+    "tail": "black_hole_area"
+  },
+  {
+    "head": "compiler",
+    "relation": "translates",
+    "tail": "source_code"
+  },
+  {
+    "head": "bytecode",
+    "relation": "executed_by",
+    "tail": "virtual_machine"
+  },
+  {
+    "head": "turing_machine",
+    "relation": "reads_and_writes",
+    "tail": "tape_memory"
+  },
+  {
+    "head": "clingo_asp",
+    "relation": "solves",
+    "tail": "answer_set_programs"
+  },
+  {
+    "head": "z3_prover",
+    "relation": "proves",
+    "tail": "smt_satisfiability"
+  },
+  {
+    "head": "hebbian_learning",
+    "relation": "wires",
+    "tail": "coactive_neurons"
+  },
+  {
+    "head": "dnc_memory",
+    "relation": "addresses",
+    "tail": "external_memory_matrix"
+  },
+  {
+    "head": "nalu_cluster",
+    "relation": "extrapolates",
+    "tail": "numerical_arithmetic"
+  },
+  {
+    "head": "poincare_disk",
+    "relation": "projects",
+    "tail": "hyperbolic_embeddings"
+  },
+  {
+    "head": "minkowski_metric",
+    "relation": "measures_distance_in",
+    "tail": "spacetime"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "flux_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "flux_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "limit_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "limit"
+  },
+  {
+    "head": "limit_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "derivative"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "deduction"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "equilibrium"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "laser_modes_of_operation"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_quantum_vs._classical_emission_processes"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_dye_lasers"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "thermodynamics"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "holography_etymology"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "topology"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "laser_modes_of_operation"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "graphene_structure"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "graphene_molten_salts"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "thermodynamics"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "graphene_multi-parametric_surface_plasmon_resonance"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "neural_network",
+    "relation": "related_to",
+    "tail": "neural_networks"
+  },
+  {
+    "head": "neural_network",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "laser_introduction"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "deduction"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "self_reflection"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "topology"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "graphene_reinforced_graphene"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "astrophysics_theoretical_astrophysics"
+  },
+  {
+    "head": "conservation",
+    "relation": "related_to",
+    "tail": "hypothesis"
+  },
+  {
+    "head": "conservation",
+    "relation": "related_to",
+    "tail": "general_relativity_alternatives_to_general_relativity"
+  },
+  {
+    "head": "limit",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "limit",
+    "relation": "related_to",
+    "tail": "structure"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "laser_introduction"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "nuclear_fusion_introduction"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "derivative"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "ratio"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_maser"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "laser_as_weapons"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "laser_terminology"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "laser_gain_medium_and_cavity"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_laser"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "black_hole_thermodynamics_black_hole_thermodynamics_figure"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "black_hole_thermodynamics"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "laser_solid-state_lasers"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "laser_in_medicine"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "laser_as_weapons"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "dimension"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "black_hole_thermodynamics_black_hole_thermodynamics_figure"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "fluid_dynamics_fluid_dynamics_figure"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "causality"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "electromagnetism_a_fundamental_force"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "nuclear_fusion_history"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "geometry"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "laser_modes_of_operation"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "hypothesis"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "holography_data_storage"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_the_light_emitted"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_examples_by_power"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "holography_history"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "focused_inquiry"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "equation"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "holography_holography_figure"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "general_relativity_event_horizons"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "graphene_van_der_waals_force"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "limit"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "limit"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "energy",
+    "relation": "related_to",
+    "tail": "graphene_microwave-assisted_oxidation"
+  },
+  {
+    "head": "energy",
+    "relation": "related_to",
+    "tail": "graphene_molten_salts"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "fluid_dynamics"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "general_relativity_introduction"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "astrophysics_introduction"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "laser_modes_of_operation"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "holography_high-security_registration_plates"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "geometry"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "graphene_microwave-assisted_oxidation"
+  },
+  {
+    "head": "derivative",
+    "relation": "related_to",
+    "tail": "momentum_impetus"
+  },
+  {
+    "head": "derivative",
+    "relation": "related_to",
+    "tail": "general_relativity_journal_articles"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "momentum_bibliography"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "laser_terminology"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "superconductivity_bcs_theory_and_cooper_pairs"
+  },
+  {
+    "head": "equilibrium",
+    "relation": "related_to",
+    "tail": "quantum_entanglement_bloch_sphere_entanglement_state"
+  },
+  {
+    "head": "equilibrium",
+    "relation": "related_to",
+    "tail": "laser"
+  },
+  {
+    "head": "conservation",
+    "relation": "related_to",
+    "tail": "equation"
+  },
+  {
+    "head": "probability",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "probability",
+    "relation": "related_to",
+    "tail": "neural_networks_introduction"
+  },
+  {
+    "head": "ratio",
+    "relation": "related_to",
+    "tail": "momentum_bibliography"
+  },
+  {
+    "head": "ratio",
+    "relation": "related_to",
+    "tail": "integral_bibliography"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "general_relativity_introduction"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "astrophysics_introduction"
+  },
+  {
+    "head": "symmetry",
+    "relation": "related_to",
+    "tail": "topology"
+  },
+  {
+    "head": "symmetry",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "verification",
+    "relation": "related_to",
+    "tail": "graphene_pillared_graphene"
+  },
+  {
+    "head": "verification",
+    "relation": "related_to",
+    "tail": "graphene_cold_wall"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "holography"
+  },
+  {
+    "head": "structure",
+    "relation": "related_to",
+    "tail": "general_relativity_causal_structure_and_global_geometry"
+  },
+  {
+    "head": "structure",
+    "relation": "related_to",
+    "tail": "graphene_structure_of_graphite_and_its_intercalation_compounds"
+  },
+  {
+    "head": "axiom",
+    "relation": "related_to",
+    "tail": "electromagnetism"
+  },
+  {
+    "head": "axiom",
+    "relation": "related_to",
+    "tail": "electromagnetism_electromagnetism_figure"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "focused_inquiry"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "axiom"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "holography_history"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "holography_comparison_with_photography"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_stimulated_emission"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "laser_books"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "superconductivity_bcs_theory_and_cooper_pairs"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "ratio"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "quantum_computing"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "conservation"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "holography_data_storage"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "graphene_ion_implantation"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "thermodynamics"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "superconductivity_meissner_magnetic_flux_expulsion"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "holography_comparison_with_photography"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "energy",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "energy",
+    "relation": "related_to",
+    "tail": "general_relativity_journal_articles"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "nuclear_fusion_nuclear_fusion_figure"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "general_relativity_general_relativity_figure"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "laser_continuous-wave_operation"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "laser_examples_by_power"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "graphene"
+  },
+  {
+    "head": "equilibrium",
+    "relation": "related_to",
+    "tail": "holography_data_storage"
+  },
+  {
+    "head": "equilibrium",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "holography_data_storage"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "fluid_dynamics_equations"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "general_relativity_evolution_equations"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "neural_network"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "hypothesis",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "hypothesis",
+    "relation": "related_to",
+    "tail": "integral_bibliography"
+  },
+  {
+    "head": "geometry",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "geometry",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "deduction"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "laser_introduction"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "general_relativity_causal_structure_and_global_geometry"
+  },
+  {
+    "head": "bekenstein_hawking_entropy",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "bekenstein_hawking_entropy",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "list_of_laser_applications",
+    "relation": "related_to",
+    "tail": "momentum_multiple_dimensions"
+  },
+  {
+    "head": "list_of_laser_applications",
+    "relation": "related_to",
+    "tail": "flux_general_mathematical_definition_(transport)"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "topology"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "deduction"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_recent_innovations"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "holography_apparatus"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "holography_holography_figure"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "superconductivity_meissner_magnetic_flux_expulsion"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "graphene_metal_substrates"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "laser_modes_of_operation"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "calm_reading"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "holography_holography_figure"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "black_hole_thermodynamics_black_hole_thermodynamics_figure"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "suwamun"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "structure"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "self_reflection"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "holography_high-security_registration_plates"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_chemical_lasers"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "laser_the_light_emitted"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "axiom"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "quantum_computing"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "gravity"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "hypothesis"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "black_hole_thermodynamics_black_hole_thermodynamics_figure"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "graphene_casimir_effect"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "fluid_dynamics_equations"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "equation"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "equilibrium"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "calm_reading"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "energy",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "laser_terminology"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "general_relativity_cosmology"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "laser_simple_model"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "holography_data_storage"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "graphene_flash_joule_heating"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "holography_holographic_interferometry"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "hypothesis"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "greated"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_uses"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "holography_visual_optics"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "holography"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "towardetta"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "field"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "equilibrium"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "laser_foundations"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "laser_exotic_media"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "quantum_entanglement"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "laser_foundations"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "hypothesis"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "paper"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "model"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "general_relativity_general_relativity_figure"
+  },
+  {
+    "head": "fluid_dynamics",
+    "relation": "related_to",
+    "tail": "laser_foundations"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "hesid"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "createes"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "astrophysics"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "astrophysics_astrophysics_figure"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "nuclear_fusion",
+    "relation": "related_to",
+    "tail": "geometry"
+  },
+  {
+    "head": "entropy",
+    "relation": "related_to",
+    "tail": "nuclear_fusion_history"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "general_relativity_causal_structure_and_global_geometry"
+  },
+  {
+    "head": "momentum",
+    "relation": "related_to",
+    "tail": "graphene_stability"
+  },
+  {
+    "head": "gravity",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "gravity",
+    "relation": "related_to",
+    "tail": "short"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "ratio"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "general_relativity_general_relativity_figure"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "hesid"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "hesid"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "holography"
+  },
+  {
+    "head": "conservation",
+    "relation": "related_to",
+    "tail": "electromagnetism_19th_century"
+  },
+  {
+    "head": "conservation",
+    "relation": "related_to",
+    "tail": "graphene_optical_properties"
+  },
+  {
+    "head": "velocity",
+    "relation": "related_to",
+    "tail": "calm_reading"
+  },
+  {
+    "head": "velocity",
+    "relation": "related_to",
+    "tail": "self_reflection"
+  },
+  {
+    "head": "probability",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "probability",
+    "relation": "related_to",
+    "tail": "momentum_bibliography"
+  },
+  {
+    "head": "derivative",
+    "relation": "related_to",
+    "tail": "temperature_scales"
+  },
+  {
+    "head": "structure",
+    "relation": "related_to",
+    "tail": "graphene_molten_salts"
+  },
+  {
+    "head": "axiom",
+    "relation": "related_to",
+    "tail": "neural_network"
+  },
+  {
+    "head": "axiom",
+    "relation": "related_to",
+    "tail": "quantum_computing"
+  },
+  {
+    "head": "deduction",
+    "relation": "related_to",
+    "tail": "graphene_flash_joule_heating"
+  },
+  {
+    "head": "deduction",
+    "relation": "related_to",
+    "tail": "temperature_examples"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "momentum_bibliography"
+  },
+  {
+    "head": "curiosity",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "wave_function"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "executed"
+  },
+  {
+    "head": "difference",
+    "relation": "related_to",
+    "tail": "between"
+  },
+  {
+    "head": "difference",
+    "relation": "related_to",
+    "tail": "short"
+  },
+  {
+    "head": "diting",
+    "relation": "related_to",
+    "tail": "paper"
+  },
+  {
+    "head": "diting",
+    "relation": "related_to",
+    "tail": "rigict"
+  },
+  {
+    "head": "saying",
+    "relation": "related_to",
+    "tail": "short"
+  },
+  {
+    "head": "saying",
+    "relation": "related_to",
+    "tail": "between"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "difference_science_and_mathematics"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "lolathic"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "ratio"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "neural_networks_neural_networks_figure"
+  },
+  {
+    "head": "assertiveness",
+    "relation": "related_to",
+    "tail": "assertive"
+  },
+  {
+    "head": "assertiveness",
+    "relation": "related_to",
+    "tail": "graphene_flash_joule_heating"
+  },
+  {
+    "head": "verification",
+    "relation": "related_to",
+    "tail": "nuclear_fusion"
+  },
+  {
+    "head": "verification",
+    "relation": "related_to",
+    "tail": "integral_history"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "assertive_communication"
+  },
+  {
+    "head": "force",
+    "relation": "related_to",
+    "tail": "fluid_dynamics"
+  },
+  {
+    "head": "scale_of_temperature",
+    "relation": "related_to",
+    "tail": "temperature_examples"
+  },
+  {
+    "head": "scale_of_temperature",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "holography",
+    "relation": "related_to",
+    "tail": "laser_laser_figure"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "symmetry"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "related_to",
+    "tail": "axiom"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "curiosity"
+  },
+  {
+    "head": "quantum_computing",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "black_hole_thermodynamics",
+    "relation": "related_to",
+    "tail": "quantum_entanglement_chsh_inequality_and_tsirelson_bound"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "quantum_entanglement_chsh_inequality_and_tsirelson_bound"
+  },
+  {
+    "head": "general_relativity",
+    "relation": "related_to",
+    "tail": "quantum_entanglement_quantum_teleportation_protocol"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "equilibrium"
+  },
+  {
+    "head": "graphene",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "optics",
+    "relation": "related_to",
+    "tail": "general_relativity_quantum_field_theory_in_curved_spacetime"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "astrophysics",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "quantum_entanglement_bloch_sphere_entanglement_state"
+  },
+  {
+    "head": "electromagnetism",
+    "relation": "related_to",
+    "tail": "quantum_entanglement"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "general_relativity_journal_articles"
+  },
+  {
+    "head": "pressure",
+    "relation": "related_to",
+    "tail": "optics_photography"
+  },
+  {
+    "head": "temperature",
+    "relation": "related_to",
+    "tail": "laser_laser_figure"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "conservation"
+  },
+  {
+    "head": "equation",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "assertiveness",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "flux",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "limit"
+  },
+  {
+    "head": "integral",
+    "relation": "related_to",
+    "tail": "superconductivity_meissner_magnetic_flux_expulsion"
+  },
+  {
+    "head": "power",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "velocity",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "gravity",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "derivative",
+    "relation": "related_to",
+    "tail": "optics_photography"
+  },
+  {
+    "head": "ratio",
+    "relation": "related_to",
+    "tail": "equation_analogous_illustration"
+  },
+  {
+    "head": "ratio",
+    "relation": "related_to",
+    "tail": "equation_diophantine_equations"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "wave_function"
+  },
+  {
+    "head": "dimension",
+    "relation": "related_to",
+    "tail": "conservation"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "topology",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "structure",
+    "relation": "related_to",
+    "tail": "graphene_observations_of_thin_graphite_layers_and_related_structures"
+  },
+  {
+    "head": "deduction",
+    "relation": "related_to",
+    "tail": "general_relativity_bibliography"
+  },
+  {
+    "head": "deduction",
+    "relation": "related_to",
+    "tail": "topology_bibliography"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "verification"
+  },
+  {
+    "head": "causality",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "thermodynamics",
+    "relation": "related_to",
+    "tail": "pressure_scalar_nature"
+  },
+  {
+    "head": "thermodynamics",
+    "relation": "related_to",
+    "tail": "temperature_thermodynamic_equilibrium_axiomatics"
+  },
+  {
+    "head": "laser",
+    "relation": "related_to",
+    "tail": "dimension"
+  }
+]

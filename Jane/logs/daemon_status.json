@@ -1,0 +1,22 @@
+{
+  "pid": 9680,
+  "state": "HIBERNATED",
+  "boot_timestamp": 1792032077.0545752,
+  "uptime_sec": 185.41,
+  "mode": "HYBRID",
+  "is_listening": false,
+  "resumed_campaigns_on_boot": 0,
+  "sleep_cycles_completed": 0,
+  "manifold_concepts": 78,
+  "total_spoken_replies": 1,
+  "last_heard_query": "",
+  "last_spoken_reply": "Hey Akhil, I'm here with you. Still keeping assertive warm in memory whenever you're ready.",
+  "last_spoken_timestamp": 1792032079.2618825,
+  "last_flux": {},
+  "updated_at": 1792032262.462957,
+  "hibernation_report": {
+    "status": "HIBERNATED_FOR_SHUTDOWN",
+    "hibernated_campaigns": [],
+    "saved_concepts": 78
+  }
+}

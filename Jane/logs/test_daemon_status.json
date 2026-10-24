@@ -1,0 +1,24 @@
+{
+  "pid": 32,
+  "state": "HIBERNATED",
+  "boot_timestamp": 1791647370.587347,
+  "uptime_sec": 0.36,
+  "mode": "HYBRID",
+  "is_listening": false,
+  "resumed_campaigns_on_boot": 1,
+  "sleep_cycles_completed": 0,
+  "manifold_concepts": 36,
+  "total_spoken_replies": 0,
+  "last_heard_query": "",
+  "last_spoken_reply": "",
+  "last_spoken_timestamp": 0.0,
+  "last_flux": {},
+  "updated_at": 1791647370.9483068,
+  "hibernation_report": {
+    "status": "HIBERNATED_FOR_SHUTDOWN",
+    "hibernated_campaigns": [
+      "camp_24x7_autonomy"
+    ],
+    "saved_concepts": 36
+  }
+}

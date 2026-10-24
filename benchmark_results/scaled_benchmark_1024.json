@@ -1,0 +1,13 @@
+{
+  "benchmark": "Scaled_Graph_1024_24",
+  "num_states": 1024,
+  "num_actions": 24,
+  "tabular_memory_bytes": 201326592,
+  "hdc_memory_bytes": 160000,
+  "memory_compression_factor": 1258.2912,
+  "oracle_lower_bound": 11,
+  "hdc_mean_steps": 83.6,
+  "random_baseline_steps": 100.0,
+  "efficiency_gain_pct": 16.400000000000006,
+  "throughput_steps_sec": 10.25097017284876
+}

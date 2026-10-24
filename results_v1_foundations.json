@@ -1,0 +1,10 @@
+{
+  "generation": 1,
+  "name": "HAI_Foundations_HRR_VFE",
+  "dimension": 10000,
+  "sim_cat_dog_sentences": 0.3236157105054058,
+  "unbinding_accuracy": 1.0,
+  "avg_fe_reduction": 0.6164772075468623,
+  "avg_final_fe": 0.7207294400477939,
+  "steps_per_second": 112.24410386510274
+}

@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing and caching
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Model weights, embeddings, binary models (>50MB or binary distributions)
+*.gguf
+*.safetensors
+*.bin
+*.tar.gz
+Jane/data/models/*.gguf
+Jane/models/wav2vec2_ctc/*.safetensors
+Jane/models/piper/*.onnx
+Jane/models/piper/piper/
+data/*.bin
+
+# Runtime session logs and personal ledger traces
+logs/*.log
+logs/*.jsonl
+logs/*.bak
+Jane/logs/*.log
+Jane/logs/*.jsonl
+Jane/logs/*.bak
+Jane/logs/voice_demos/*.wav
+logs/voice_demos/*.wav
+
+# Temporary builds
+build/
+dist/
+*.egg-info/
+tmp/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

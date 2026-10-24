@@ -1,0 +1,28 @@
+{
+  "active_project": "holographic projection",
+  "updated_at": 1791652847.8734264,
+  "artifacts": [
+    {
+      "artifact_id": "doc_1791652847",
+      "title": "Holographic Projection Engineering Blueprint",
+      "file_path": "/home/akhil/Documents/Ethereal/Jane/artifacts/holographic_projection_blueprint.md",
+      "artifact_type": "document",
+      "topic": "holographic projection",
+      "created_at": 1791652847.5992603,
+      "opened_on_desktop": true,
+      "visual_output_path": null,
+      "execution_stdout": ""
+    },
+    {
+      "artifact_id": "sim_1791652847",
+      "title": "Holographic Projection Wavefront Simulation",
+      "file_path": "/home/akhil/Documents/Ethereal/Jane/artifacts/holographic_projection_simulation.py",
+      "artifact_type": "simulation",
+      "topic": "holographic projection",
+      "created_at": 1791652847.8733237,
+      "opened_on_desktop": true,
+      "visual_output_path": "/home/akhil/Documents/Ethereal/Jane/artifacts/holographic_projection_simulation.png",
+      "execution_stdout": "SIMULATION_VERIFIED: peak_intensity=3.9980, saved_plot='/home/akhil/Documents/Ethereal/Jane/artifacts/holographic_projection_simulation.png'"
+    }
+  ]
+}

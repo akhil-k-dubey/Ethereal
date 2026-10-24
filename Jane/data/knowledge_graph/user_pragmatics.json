@@ -1,0 +1,46 @@
+{
+  "idioms": {
+    "mastered your modifications": {
+      "expression": "mastered your modifications",
+      "semantic_meaning": "you are working properly",
+      "canonical_intent": "system_status_operational",
+      "timestamp": 1791610185.7988958,
+      "reinforcement_count": 20
+    },
+    "praising pharse": {
+      "expression": "praising pharse",
+      "semantic_meaning": "it is good",
+      "canonical_intent": "system_status_operational",
+      "timestamp": 1791399803.335261,
+      "reinforcement_count": 2
+    },
+    "hahaha love it are awesome": {
+      "expression": "hahaha love it are awesome",
+      "semantic_meaning": "you are working properly",
+      "canonical_intent": "system_status_operational",
+      "timestamp": 1791399806.6818395,
+      "reinforcement_count": 1
+    },
+    "it is my way of saying that are working properly": {
+      "expression": "it is my way of saying that are working properly",
+      "semantic_meaning": "you are working properly",
+      "canonical_intent": "system_status_operational",
+      "timestamp": 1791399806.7147923,
+      "reinforcement_count": 1
+    },
+    "then why did sail to state ap rigict with here dren": {
+      "expression": "then why did sail to state ap rigict with here dren",
+      "semantic_meaning": "you said that you know about hydran but now you are saying that you don't have diting your manifold",
+      "canonical_intent": "pleasantry",
+      "timestamp": 1791707850.7014284,
+      "reinforcement_count": 1
+    },
+    "mean said that know about hydran but now are saying that don t diting your manifold": {
+      "expression": "mean said that know about hydran but now are saying that don t diting your manifold",
+      "semantic_meaning": "you said that you know about hydran but now you are saying that you don't have diting your manifold",
+      "canonical_intent": "pleasantry",
+      "timestamp": 1791707850.775798,
+      "reinforcement_count": 1
+    }
+  }
+}

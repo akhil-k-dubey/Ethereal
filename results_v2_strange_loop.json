@@ -1,0 +1,13 @@
+{
+  "generation": 2,
+  "name": "HAI_StrangeLoop_SelfReference",
+  "dimension": 10000,
+  "mean_self_consistency": 0.4970406019934474,
+  "attractor_drift": 0.07327340634961171,
+  "introspection_depth_1_fidelity": 0.4823881883954831,
+  "introspection_depth_2_fidelity": 0.25248069421148406,
+  "metacognitive_anomaly_detection_rate": 0.4,
+  "mean_anomaly_surprise_spike": 0.14748543061220326,
+  "mean_free_energy": 0.7300109293981957,
+  "steps_per_second": 289.4992683667553
+}

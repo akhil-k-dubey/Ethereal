@@ -1,0 +1,17 @@
+[Unit]
+Description=Project Jane — Sovereign 24/7 Neuro-Symbolic Cognitive Daemon
+After=default.target sound.target pulseaudio.service pipewire.service
+Wants=sound.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/akhil/Documents/Ethereal/Jane
+ExecStart=/home/akhil/Documents/Ethereal/Jane/.venv/bin/python /home/akhil/Documents/Ethereal/Jane/scripts/jane_24x7_daemon.py
+KillSignal=SIGTERM
+TimeoutStopSec=30
+Restart=on-failure
+RestartSec=5
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=default.target

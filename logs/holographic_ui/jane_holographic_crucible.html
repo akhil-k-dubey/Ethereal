@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>J.A.N.E. — 3D Holographic Spatial & Lifecycle Crucible</title>
+<style>
+  :root {
+    --bg: #050a12;
+    --panel: rgba(10, 22, 38, 0.86);
+    --cyan: #00f0ff;
+    --amber: #ffb800;
+    --emerald: #00ff9d;
+    --text: #e2f1ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(circle at center, #0b192c 0%, #03070c 100%);
+    color: var(--text);
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 28px;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.25);
+    background: rgba(5, 12, 22, 0.9);
+  }
+  .title { font-size: 18px; letter-spacing: 2px; color: var(--cyan); font-weight: 700; }
+  .badge {
+    padding: 4px 12px;
+    border: 1px solid var(--emerald);
+    color: var(--emerald);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 20px;
+    padding: 20px 28px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid rgba(0, 240, 255, 0.22);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 0 24px rgba(0, 240, 255, 0.06);
+  }
+  .card h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--cyan);
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.15);
+    padding-bottom: 6px;
+  }
+  canvas {
+    width: 100%;
+    height: 520px;
+    background: rgba(2, 6, 12, 0.85);
+    border: 1px solid rgba(0, 240, 255, 0.18);
+    border-radius: 6px;
+    cursor: grab;
+  }
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  button {
+    background: rgba(0, 240, 255, 0.1);
+    color: var(--cyan);
+    border: 1px solid var(--cyan);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+  }
+  button:hover { background: rgba(0, 240, 255, 0.25); }
+  .metric-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+    font-size: 12px;
+  }
+  .metric-val { color: var(--emerald); font-weight: 600; }
+  pre {
+    font-size: 11px;
+    color: #9ecbff;
+    max-height: 210px;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="title">J.A.N.E. // 3D HOLOGRAPHIC SPATIAL & LIFECYCLE CRUCIBLE</div>
+  <div class="badge">LIVE VERIFIED STATE • ZERO HARDCODING</div>
+</header>
+<div class="grid">
+  <div class="card">
+    <h2>Interactive 3D Volumetric Room, Deictic Raycast & 256D Manifold Projection (Drag to Rotate)</h2>
+    <canvas id="holoCanvas" width="900" height="520"></canvas>
+    <div class="controls">
+      <button onclick="setMode('spatial')">3D Room + Raycast + Trajectory</button>
+      <button onclick="setMode('manifold')">256D SVD Concept Constellation</button>
+      <button onclick="setMode('both')">Unified Holographic Overlay</button>
+    </div>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div class="card">
+      <h2>1. Spatial 3D & Deictic Gesture Telemetry</h2>
+      <div id="spatialMetrics"></div>
+    </div>
+    <div class="card">
+      <h2>2. Autonomic NREM/REM Sleep & Campaign Consolidation</h2>
+      <div id="sleepMetrics"></div>
+    </div>
+    <div class="card">
+      <h2>3. Live Crucible State Snapshot (JSON)</h2>
+      <pre id="rawJson"></pre>
+    </div>
+  </div>
+</div>
+<script>
+const STATE = {
+  "timestamp": "2026-10-10 19:35:37",
+  "objects_3d": [
+    {
+      "id": "turbine_assembly",
+      "label": "Prototype Turbine Core",
+      "bounds": [
+        -0.3483,
+        2.6459,
+        0.6,
+        0.3514,
+        3.3456,
+        1.4
+      ],
+      "centroid": [
+        0.0058,
+        3.0,
+        1.0
+      ],
+      "normal": [
+        -0.4853,
+        0.4853,
+        0.7273
+      ],
+      "volume": 0.392,
+      "color": "#00f0ff"
+    },
+    {
+      "id": "containment_pillar",
+      "label": "Central Containment Pillar",
+      "bounds": [
+        -0.5,
+        1.1,
+        0.0,
+        0.5,
+        1.9,
+        1.8
+      ],
+      "centroid": [
+        0.0,
+        1.5,
+        0.9
+      ],
+      "normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "volume": 1.44,
+      "color": "#ff4d6d"
+    }
+  ],
+  "raycast_hit": {
+    "hit": true,
+    "object_id": "turbine_assembly",
+    "object_label": "Prototype Turbine Core",
+    "distance_t": 2.1501,
+    "hit_point_3d": [
+      0.0,
+      -0.3499,
+      1.0
+    ],
+    "ray_origin": [
+      0.0,
+      -2.5,
+      1.0
+    ],
+    "ray_direction": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "trajectory_3d": [
+    [
+      0.0058,
+      0.0,
+      1.0
+    ],
+    [
+      0.0058,
+      1.5,
+      2.4000000000000004
+    ],
+    [
+      0.0058,
+      3.0,
+      1.0
+    ]
+  ],
+  "manifold_3d": [
+    {
+      "name": "energy",
+      "x": 0.337,
+      "y": 0.666,
+      "z": -0.859
+    },
+    {
+      "name": "entropy",
+      "x": 1.227,
+      "y": -0.3,
+      "z": -0.341
+    },
+    {
+      "name": "momentum",
+      "x": -0.098,
+      "y": -0.182,
+      "z": -0.29
+    },
+    {
+      "name": "force",
+      "x": 0.307,
+      "y": -0.939,
+      "z": 0.314
+    },
+    {
+      "name": "pressure",
+      "x": 0.074,
+      "y": 0.278,
+      "z": 0.18
+    },
+    {
+      "name": "temperature",
+      "x": -0.422,
+      "y": -0.439,
+      "z": 0.407
+    },
+    {
+      "name": "work",
+      "x": -0.276,
+      "y": -0.009,
+      "z": 1.494
+    },
+    {
+      "name": "power",
+      "x": 0.235,
+      "y": -0.369,
+      "z": 0.202
+    },
+    {
+      "name": "flux",
+      "x": -0.14,
+      "y": 0.019,
+      "z": -0.605
+    },
+    {
+      "name": "equilibrium",
+      "x": 1.095,
+      "y": 0.262,
+      "z": -0.606
+    },
+    {
+      "name": "conservation",
+      "x": 0.208,
+      "y": -1.172,
+      "z": 0.084
+    },
+    {
+      "name": "thermodynamics",
+      "x": 0.683,
+      "y": -0.561,
+      "z": -0.435
+    },
+    {
+      "name": "velocity",
+      "x": -0.343,
+      "y": -0.49,
+      "z": -1.04
+    },
+    {
+      "name": "gravity",
+      "x": 0.313,
+      "y": 0.291,
+      "z": -0.648
+    },
+    {
+      "name": "equation",
+      "x": 0.286,
+      "y": -0.671,
+      "z": 0.141
+    },
+    {
+      "name": "derivative",
+      "x": 0.001,
+      "y": 1.365,
+      "z": 0.107
+    },
+    {
+      "name": "integral",
+      "x": -0.166,
+      "y": 1.001,
+      "z": 0.11
+    },
+    {
+      "name": "limit",
+      "x": -0.601,
+      "y": 0.75,
+      "z": -0.035
+    },
+    {
+      "name": "geometry",
+      "x": 0.111,
+      "y": 0.243,
+      "z": 1.063
+    },
+    {
+      "name": "probability",
+      "x": 0.171,
+      "y": 0.43,
+      "z": -1.403
+    },
+    {
+      "name": "ratio",
+      "x": 0.087,
+      "y": 0.198,
+      "z": -0.361
+    },
+    {
+      "name": "dimension",
+      "x": 0.033,
+      "y": -0.492,
+      "z": 0.135
+    },
+    {
+      "name": "symmetry",
+      "x": 0.408,
+      "y": 0.535,
+      "z": -0.366
+    },
+    {
+      "name": "topology",
+      "x": -0.235,
+      "y": -0.444,
+      "z": 0.085
+    },
+    {
+      "name": "self_reflection",
+      "x": -0.043,
+      "y": 0.386,
+      "z": 0.691
+    },
+    {
+      "name": "hypothesis",
+      "x": 0.184,
+      "y": -0.989,
+      "z": 0.19
+    },
+    {
+      "name": "verification",
+      "x": -0.203,
+      "y": -0.158,
+      "z": 0.878
+    },
+    {
+      "name": "curiosity",
+      "x": 0.647,
+      "y": 0.512,
+      "z": 0.468
+    },
+    {
+      "name": "structure",
+      "x": 0.387,
+      "y": 1.228,
+      "z": 0.934
+    },
+    {
+      "name": "deduction",
+      "x": 0.931,
+      "y": -0.283,
+      "z": 0.028
+    },
+    {
+      "name": "axiom",
+      "x": -0.182,
+      "y": -0.403,
+      "z": 0.05
+    },
+    {
+      "name": "causality",
+      "x": -0.787,
+      "y": -0.147,
+      "z": 0.495
+    },
+    {
+      "name": "teaching_explaining",
+      "x": 0.248,
+      "y": 1.206,
+      "z": 0.318
+    },
+    {
+      "name": "calm_reading",
+      "x": 0.126,
+      "y": 0.224,
+      "z": -1.272
+    },
+    {
+      "name": "focused_inquiry",
+      "x": 0.202,
+      "y": -0.409,
+      "z": 0.84
+    },
+    {
+      "name": "assertive",
+      "x": 0.245,
+      "y": -1.059,
+      "z": -0.191
+    },
+    {
+      "name": "spatial_turbine_assembly",
+      "x": -2.554,
+      "y": -0.047,
+      "z": -0.366
+    },
+    {
+      "name": "spatial_containment_pillar",
+      "x": -2.495,
+      "y": -0.036,
+      "z": -0.397
+    }
+  ],
+  "manifold_edges": [
+    {
+      "source": 18,
+      "target": 36,
+      "weight": 0.393
+    },
+    {
+      "source": 18,
+      "target": 37,
+      "weight": 0.393
+    },
+    {
+      "source": 36,
+      "target": 37,
+      "weight": 0.18
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "weight": 0.085
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": 0.085
+    },
+    {
+      "source": 16,
+      "target": 26,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 25,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 27,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 18,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 37,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 36,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 35,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 34,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 33,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 32,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 31,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 29,
+      "weight": 0.0
+    },
+    {
+      "source": 15,
+      "target": 30,
+      "weight": 0.0
+    },
+    {
+      "source": 16,
+      "target": 24,
+      "weight": 0.0
+    }
+  ],
+  "lifecycle": {
+    "pre_sleep_entropy": 0.9711,
+    "post_sleep_entropy": 0.2908,
+    "synapses_pruned": 699,
+    "orphan_nodes_pruned": 4,
+    "episodic_events_compressed": 169,
+    "rem_laws_promoted": 3,
+    "campaign_resumed_step": "step_2_stream_router",
+    "campaign_final_status": "COMPLETED"
+  }
+};
+document.getElementById('rawJson').textContent = JSON.stringify(STATE, null, 2);
+
+const sm = document.getElementById('spatialMetrics');
+const hit = STATE.raycast_hit || {};
+sm.innerHTML = `
+  <div class="metric-row"><span>3D Volumetric Objects</span><span class="metric-val">${STATE.objects_3d.length}</span></div>
+  <div class="metric-row"><span>Deictic Ray Target</span><span class="metric-val">${hit.object_label || 'None'} (${hit.object_id || '-'})</span></div>
+  <div class="metric-row"><span>3D Hit Point (x, y, z)</span><span class="metric-val">${hit.hit_point_3d ? hit.hit_point_3d.join(', ') : '-'}</span></div>
+  <div class="metric-row"><span>3D Trajectory Waypoints</span><span class="metric-val">${STATE.trajectory_3d.length}</span></div>
+`;
+
+const slm = document.getElementById('sleepMetrics');
+const lc = STATE.lifecycle || {};
+slm.innerHTML = `
+  <div class="metric-row"><span>Pre -> Post Synaptic Entropy</span><span class="metric-val">${lc.pre_sleep_entropy ?? '-'} → ${lc.post_sleep_entropy ?? '-'}</span></div>
+  <div class="metric-row"><span>NREM Weak Synapses Pruned</span><span class="metric-val">${lc.synapses_pruned ?? '-'}</span></div>
+  <div class="metric-row"><span>NREM Orphan Nodes GC'd</span><span class="metric-val">${lc.orphan_nodes_pruned ?? '-'}</span></div>
+  <div class="metric-row"><span>REM Z3 Laws Promoted</span><span class="metric-val">${lc.rem_laws_promoted ?? '-'}</span></div>
+  <div class="metric-row"><span>Campaign Restored Across Reboot</span><span class="metric-val">${lc.campaign_resumed_step ?? '-'}</span></div>
+`;
+
+const canvas = document.getElementById('holoCanvas');
+const ctx = canvas.getContext('2d');
+let yaw = 0.65, pitch = 0.35, dragging = false, lx = 0, ly = 0, viewMode = 'both';
+function setMode(m) { viewMode = m; }
+canvas.addEventListener('mousedown', e => { dragging = true; lx = e.clientX; ly = e.clientY; });
+window.addEventListener('mouseup', () => dragging = false);
+window.addEventListener('mousemove', e => {
+  if (!dragging) return;
+  yaw += (e.clientX - lx) * 0.008;
+  pitch = Math.max(-1.2, Math.min(1.2, pitch + (e.clientY - ly) * 0.008));
+  lx = e.clientX; ly = e.clientY;
+});
+
+function project3D(x, y, z) {
+  const cy = Math.cos(yaw), sy = Math.sin(yaw);
+  const cp = Math.cos(pitch), sp = Math.sin(pitch);
+  const x1 = x * cy - y * sy;
+  const y1 = x * sy + y * cy;
+  const z2 = z * cp - y1 * sp;
+  const y2 = z * sp + y1 * cp;
+  const scale = 340 / (7.5 + y2);
+  return [canvas.width / 2 + x1 * scale, canvas.height / 2 - z2 * scale];
+}
+
+function drawBox(b, color, label) {
+  const [x0, y0, z0, x1, y1, z1] = b;
+  const v = [
+    [x0,y0,z0],[x1,y0,z0],[x1,y1,z0],[x0,y1,z0],
+    [x0,y0,z1],[x1,y0,z1],[x1,y1,z1],[x0,y1,z1]
+  ].map(p => project3D(p[0], p[1], p[2]));
+  const edges = [[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]];
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 1.5;
+  edges.forEach(([a,b]) => {
+    ctx.beginPath(); ctx.moveTo(v[a][0], v[a][1]); ctx.lineTo(v[b][0], v[b][1]); ctx.stroke();
+  });
+  ctx.fillStyle = color;
+  ctx.font = '11px monospace';
+  ctx.fillText(label, v[4][0] + 4, v[4][1] - 4);
+}
+
+function render() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if (viewMode === 'spatial' || viewMode === 'both') {
+    STATE.objects_3d.forEach(o => drawBox(o.bounds, o.color || '#00f0ff', o.label));
+    if (STATE.raycast_hit && STATE.raycast_hit.hit) {
+      const o = project3D(...STATE.raycast_hit.ray_origin);
+      const h = project3D(...STATE.raycast_hit.hit_point_3d);
+      ctx.strokeStyle = '#ffb800'; ctx.lineWidth = 2.2;
+      ctx.beginPath(); ctx.moveTo(o[0], o[1]); ctx.lineTo(h[0], h[1]); ctx.stroke();
+    }
+    if (STATE.trajectory_3d.length > 1) {
+      ctx.strokeStyle = '#00ff9d'; ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      STATE.trajectory_3d.forEach((p, idx) => {
+        const pt = project3D(p[0], p[1], p[2]);
+        if (idx === 0) ctx.moveTo(pt[0], pt[1]); else ctx.lineTo(pt[0], pt[1]);
+      });
+      ctx.stroke();
+    }
+  }
+  if (viewMode === 'manifold' || viewMode === 'both') {
+    ctx.strokeStyle = 'rgba(0, 240, 255, 0.25)'; ctx.lineWidth = 1;
+    STATE.manifold_edges.forEach(e => {
+      const a = STATE.manifold_3d[e.source], b = STATE.manifold_3d[e.target];
+      if (a && b) {
+        const pa = project3D(a.x, a.y, a.z), pb = project3D(b.x, b.y, b.z);
+        ctx.beginPath(); ctx.moveTo(pa[0], pa[1]); ctx.lineTo(pb[0], pb[1]); ctx.stroke();
+      }
+    });
+    STATE.manifold_3d.forEach(n => {
+      const p = project3D(n.x, n.y, n.z);
+      ctx.fillStyle = '#00f0ff';
+      ctx.beginPath(); ctx.arc(p[0], p[1], 3, 0, Math.PI * 2); ctx.fill();
+    });
+  }
+  yaw += 0.0025;
+  requestAnimationFrame(render);
+}
+render();
+</script>
+</body>
+</html>
